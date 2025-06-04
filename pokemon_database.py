@@ -7,7 +7,7 @@ def main():
     print("You've got 5 rounds to catch some wild Pokémon. Type a Pokémon's name to scan its stats.")
     print("")   
     
-    #keep track of the score
+    #keeps track of the score
     score = 0
     rounds = 0
 
@@ -29,8 +29,6 @@ def main():
             
     print(f"You caught {score}/5 Pokémon! Play again to catch more!")
         
-
-
 
 def load_pokedex_from_csv(filepath):
     """
