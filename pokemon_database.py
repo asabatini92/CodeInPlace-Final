@@ -28,8 +28,10 @@ def main():
         rounds += 1
             
     print(f"You caught {score}/5 Pokémon! Play again to catch more!")
-        
 
+
+
+#Makes CSV file readable in Python
 def load_pokedex_from_csv(filepath):
     """
     Loads Pokémon data from a CSV file into a dictionary.
